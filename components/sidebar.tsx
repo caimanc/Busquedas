@@ -30,7 +30,7 @@ const algorithms: AlgorithmSection[] = [
         id: "internal-hash",
         subsections: [
           { title: "Módulo", id: "internal-hash-mod" },
-          { title: "Cuadrado Medio", id: "internal-hash-square" },
+          { title: "Cuadrado", id: "internal-hash-square" },
           { title: "Plegamiento", id: "internal-hash-folding" },
           { title: "Truncamiento", id: "internal-hash-truncation" },
           { title: "Cambio de Base", id: "internal-hash-base-change" },
@@ -59,7 +59,7 @@ const algorithms: AlgorithmSection[] = [
         id: "external-hash",
         subsections: [
           { title: "Módulo", id: "external-hash-mod" },
-          { title: "Cuadrado Medio", id: "external-hash-square" },
+          { title: "Cuadrado", id: "external-hash-square" },
           { title: "Plegamiento", id: "external-hash-folding" },
           { title: "Truncamiento", id: "external-hash-truncation" },
           { title: "Cambio de Base", id: "external-hash-base-change" },

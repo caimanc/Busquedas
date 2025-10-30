@@ -33,6 +33,10 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* Added custom color variables for marfil and carbon */
+    --marfil: #f4f1de;
+    --carbon: #2e2e2e;
   }
 }
 
@@ -41,6 +45,8 @@
     @apply border-border;
   }
   body {
-    @apply bg-marfil text-carbon;
+    /* Using direct color values instead of @apply to avoid CSS processing issues */
+    background-color: #f4f1de;
+    color: #2e2e2e;
   }
 }
