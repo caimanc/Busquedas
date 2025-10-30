@@ -33,7 +33,6 @@ const algorithms: AlgorithmSection[] = [
           { title: "Cuadrado", id: "internal-hash-square" },
           { title: "Plegamiento", id: "internal-hash-folding" },
           { title: "Truncamiento", id: "internal-hash-truncation" },
-          { title: "Cambio de Base", id: "internal-hash-base-change" },
         ],
       },
       {
